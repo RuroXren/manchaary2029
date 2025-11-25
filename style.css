@@ -1,24 +1,48 @@
 body {
     margin: 0;
-    padding-top: 60px;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 70px;
+    font-family: a_avantebs, Arial, sans-serif;
+    font-weight: 550;
+    line-height: 1.6;
 }
 
-.navi {
+nav {
     position: fixed;
     top: 0;
     width: 100%;
     background: #ffa3a3;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    display: flex;
-    list-style: none;
-    padding: 10px;
-    margin: 0;
+    box-shadow: 0 2px 5px rgba(76, 76, 76, 0.16);
+    z-index: 1000;
 }
-
+.navi {
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
 .line {
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 .logo {
-    height: 40px;
+    height: 60px;
+}
+.backinttext {
+    width: 100%;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.backinttext {
+    position: relative;
+    padding: 0 135px;
+    padding-top: 100px;
+}
+.important {
+    display: block;
+    font-size: 24px;
 }
