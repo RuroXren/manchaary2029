@@ -196,8 +196,8 @@ nav {
 /* ---------------------------------------------------------------------------------------------------------*/
 
 .timer {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    padding: 50px 0;
+    background: linear-gradient(180deg, #bcbcbc 0%, #da9f53 100%);
+    padding: 60px 0;
     text-align: center;
     color: white;
 }
@@ -220,7 +220,7 @@ nav {
 }
 .time {
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
     border-radius: 15px;
     padding: 25px 15px;
     min-width: 120px;
