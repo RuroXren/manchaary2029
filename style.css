@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding-top: 60px;
+}
+
+.navi {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ffa3a3;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.line {
+    margin-right: 20px;
+}
+
+.logo {
+    height: 40px;
+}
