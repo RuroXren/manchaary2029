@@ -47,7 +47,7 @@ nav {
     position: relative;
     margin: auto;
     padding: 20% 4% 0 4% ;
-    backdrop-filter: blur(70px);
+    backdrop-filter: blur(30px);
     align-content: center;
     justify-content: center;
     border-radius: 40px;
