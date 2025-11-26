@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    padding-top: 70px;
+    padding-top: 55px;
     font-family: a_avantebs, Arial, sans-serif;
     font-weight: 550;
     line-height: 1.6;
@@ -12,7 +12,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #ffa3a3;
+    background: #ececec;
     box-shadow: 0 2px 5px rgba(76, 76, 76, 0.16);
     z-index: 1000;
 }
@@ -25,6 +25,7 @@ nav {
 }
 .line {
     margin-right: 25px;
+    margin-left: 2px;
 }
 
 .logo {
@@ -32,19 +33,38 @@ nav {
 }
 .backinttext {
     width: 100%;
-    height: 100vh;
+    height: 79vh;
     background-image: url("background.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
-.backinttext {
+.backouttext {
+    width: 75%;
+    height: 80%;
     position: relative;
-    padding: 0 135px;
-    padding-top: 100px;
+    margin: auto;
+    padding: 20% 4% 0 4% ;
+    backdrop-filter: blur(70px);
+    align-content: center;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px 10px rgba(76, 76, 76, 0.16);
 }
 .important {
+    color: white;
     display: block;
     font-size: 24px;
+}
+.bilet {
+    background: #007bff;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* ---------------------------------------------------------------------------------------------------------*/
@@ -196,10 +216,10 @@ nav {
 /* ---------------------------------------------------------------------------------------------------------*/
 
 .timer {
-    background: linear-gradient(180deg, #bcbcbc 0%, #da9f53 100%);
+    background: #ededed;
     padding: 60px 0;
     text-align: center;
-    color: white;
+    color: #000000;
 }
 .tim-text {
     font-size: 2rem;
